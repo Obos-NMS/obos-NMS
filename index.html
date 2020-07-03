@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/svg" href="old.svg"/>
+    <title>Sampurasun</title>
+    
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<script type="text/javascript" src="./script.js">
+	var sound = new Audio()
+sound.src = "press.mp3"
+
+var button = document.getElementsByID("button")
+
+	</script>
+    
+</head>
+<body>
+	<img class="wave" src="./wave.png">
+	<div class="container">
+		<div class="img">
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src="./logo.svg">
+				<h2 class="title">Sampurasun</h2>
+           		<div class="input-div one">
+           		   <div class="logoSamping">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="userName">
+							  <label>Username</label>
+							  <p>    </p>
+							  <br>
+           		   		<input type="text" class="input">
+           		   </div>
+				   </div>  
+				   <div id="button">
+					   <button type="button" class ='btn' onmousedown="sound.play()"><a href = './main.html'>Play</a></button>
+					</div>
+				</form>
+        </div>
+    </div>
+    
+</body>
+</html>
